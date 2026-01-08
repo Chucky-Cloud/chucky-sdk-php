@@ -1,9 +1,25 @@
 {
     "name": "chucky-cloud/sdk",
-    "description": "PHP SDK for Chucky (Claude Code sandbox)",
+    "description": "PHP SDK for Chucky - build Claude-powered AI assistants with WebSocket streaming",
     "type": "library",
     "license": "MIT",
-    "keywords": ["chucky", "claude", "ai", "sdk", "anthropic"],
+    "keywords": [
+        "chucky",
+        "claude",
+        "anthropic",
+        "ai",
+        "sdk",
+        "agent",
+        "assistant",
+        "llm",
+        "mcp",
+        "websocket",
+        "ai-assistant",
+        "chatbot",
+        "tools",
+        "streaming",
+        "reactphp"
+    ],
     "authors": [
         {
             "name": "Chucky Cloud",
