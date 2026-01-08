@@ -1,0 +1,8 @@
+/vendor/
+/composer.lock
+/composer.phar
+/.phpunit.cache/
+/.phpstan.cache/
+.DS_Store
+.env
+*.log

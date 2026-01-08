@@ -1,0 +1,57 @@
+{
+    "name": "chucky-cloud/sdk",
+    "description": "PHP SDK for Chucky (Claude Code sandbox)",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["chucky", "claude", "ai", "sdk", "anthropic"],
+    "authors": [
+        {
+            "name": "Chucky Cloud",
+            "email": "support@chucky.cloud"
+        }
+    ],
+    "homepage": "https://github.com/chucky-cloud/chucky-sdk-php",
+    "require": {
+        "php": ">=8.1",
+        "ratchet/pawl": "^0.4",
+        "react/event-loop": "^1.4",
+        "react/promise": "^3.0",
+        "ramsey/uuid": "^4.7",
+        "firebase/php-jwt": "^6.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChuckyCloud\\Sdk\\": "src/"
+        },
+        "files": [
+            "src/Types/Enums.php",
+            "src/Types/Errors.php",
+            "src/Types/Options.php",
+            "src/Types/Messages.php",
+            "src/Utils/Token.php",
+            "src/Tools/Tool.php",
+            "src/Tools/McpServer.php",
+            "src/Transport/WebSocketTransport.php",
+            "src/Client/Session.php",
+            "src/Client/ChuckyClient.php",
+            "src/Chucky.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ChuckyCloud\\Sdk\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse src --level=8"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
