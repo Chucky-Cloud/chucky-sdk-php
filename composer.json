@@ -18,8 +18,14 @@
         "chatbot",
         "tools",
         "streaming",
-        "reactphp"
+        "reactphp",
+        "claude-code"
     ],
+    "support": {
+        "docs": "https://docs.chucky.cloud",
+        "issues": "https://github.com/Chucky-Cloud/chucky-sdk-php/issues",
+        "source": "https://github.com/Chucky-Cloud/chucky-sdk-php"
+    },
     "authors": [
         {
             "name": "Chucky Cloud",
